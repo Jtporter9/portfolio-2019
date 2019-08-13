@@ -1,0 +1,58 @@
+.name-logo {
+    font-size: 32px;
+    text-align: left;
+    padding: 0px 20px;
+    font-weight: 100;
+    color: #009688;
+}
+
+main {
+    background-image: url('./../images/jt.jpg');
+    background-size: cover;
+    width:100%;
+    min-height: -webkit-fill-available;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-container {
+    position: relative;
+    .hero-text {
+        margin: 30px 0;
+        text-align: left;
+        font-weight: 300;
+        line-height: 150%;
+        padding: 0 30px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        color: white;
+        z-index: 999;
+    }
+    .underline {
+        border-bottom: 5px solid #009688;
+    }
+    .teal {
+        background-color: #009688;
+    }
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+// THINGS YOU SHOULD NEVER DO :)
+.makeStyles-drawerPaper-4 {
+    width: 190px !important;
+}
+.makeStyles-drawer-3 {
+    width: 190px !important;
+}
+.MuiListItemIcon-root {
+    min-width: 40px !important;
+}
+.material-icons {
+    width: 100% !important;
+}
