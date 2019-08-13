@@ -3,17 +3,17 @@
   "name": "J. Tanner's Portfolio Site",
   "icons": [
     {
-      "src": "../src/images/favicon_io/facicon.ico",
+      "src": "./favicon_io/facicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../src/images/favicon_io/192.png",
+      "src": "./favicon_io/192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/images/favicon_io/512.png",
+      "src": "./favicon_io/512.png",
       "type": "image/png",
       "sizes": "512x512"
     }	    
