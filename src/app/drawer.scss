@@ -28,8 +28,10 @@ main {
 .MuiTypography-body1 {
     font-weight: 100 !important;
 }
-.material-icons {
-    width: 100% !important;
+.side-bar-nav-list {
+    .material-icons {
+        width: 100% !important;
+    }
 }
 .MuiIcon-root {
     text-align: center;

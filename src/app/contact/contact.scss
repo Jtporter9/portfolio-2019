@@ -1,35 +1,26 @@
-#intro {
-    background-image: url('./../../images/jt-copy.jpg');
-    background-size: cover;
-    width:100%;
-    height: 100vh;
-}
-
-.hero-container {
-    position: relative;
-    .hero-text {
-        margin: 0px;
-        text-align: left;
-        font-weight: 300;
-        line-height: 150%;
-        padding: 30px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-        color: white;
-        z-index: 999;
-    }
-    .underline {
-        border-bottom: 5px solid #009688;
-    }
-    .teal {
-        background-color: #009688;
-    }
+#contact {
+    text-align: left;
+  h2 {
+    margin: 0px;
+    text-align: left;
+    font-weight: 300;
+    padding: 20px;
+    color: white;
+    background-color: #009688;
+  }
+  .underline {
+    border-bottom: 5px solid #009688;
+  }
+  .teal {
+    background-color: #009688;
+  }
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

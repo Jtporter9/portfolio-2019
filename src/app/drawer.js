@@ -118,7 +118,7 @@ export default function PermanentDrawerLeft() {
         <div>
           <a href="#intro">
             <h1 className="name-logo">
-              J. Tanner <br /> Porter
+              JT Porter
             <Typography style={{ color: 'black' }} variant="overline" display="block">
                 Full Stack Developer
           </Typography>
@@ -126,7 +126,7 @@ export default function PermanentDrawerLeft() {
           </a>
         </div>
         <Divider />
-        <List>
+        <List className="side-bar-nav-list">
           {['About', 'Experience', 'Projects', 'Skills', 'Awards', 'Education', 'Contact', 'Resume'].map((text, index) => (
             <a className="icon-anchor" href={icons[index].anchor}>
               <ListItem button key={text}>
