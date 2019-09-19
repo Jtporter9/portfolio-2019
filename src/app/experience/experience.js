@@ -13,25 +13,25 @@ export default function Experience() {
         EXPERIENCE
     </h2>
       <div className="section-content container">
-        <div class="row">
-          <div class="col 12">
+        <div className="row">
+          <div className="col 12">
             {/* CARD 1 */}
-            <div class="card" style={{ marginBottom: "3rem" }}>
-              <div class="card-content">
-                <div class="row">
-                  <div class="col">
+            <div className="card" style={{ marginBottom: "3rem" }}>
+              <div className="card-content">
+                <div className="row">
+                  <div className="col">
                     <a href="https://rxsaver.retailmenot.com" target="_blank">
-                      <img alt="Rx Saver logo" src={RxSaverLogo} class="responsive-img center-block company-logo"></img>
+                      <img alt="Rx Saver logo" src={RxSaverLogo} className="responsive-img center-block company-logo"></img>
                     </a>
                   </div>
-                  <div class="col">
+                  <div className="col">
                     <p>
-                      <span class="card-title"><a href="https://rxsaver.retailmenot.com" target="_blank" class="teal-text hoverline">Rx Saver RetailMeNot</a></span>
-                      <span class="role brown-text">Full-Stack Software Developer</span>
+                      <span className="card-title"><a href="https://rxsaver.retailmenot.com" target="_blank" className="teal-text hoverline">Rx Saver RetailMeNot</a></span>
+                      <span className="role brown-text">Full-Stack Software Developer</span>
                     </p>
                   </div>
                 </div>
-                <p><em class="grey-text">React/Redux platform to help consumers save money on pharmaceutical prescriptions through discount cards</em></p>
+                <p><em className="grey-text">React/Redux platform to help consumers save money on pharmaceutical prescriptions through discount cards</em></p>
                 <h6>Develop Product</h6>
                 <ul>
                   <li>Evaluated peer code to ensure function, design, and standardization.</li>
@@ -51,25 +51,25 @@ export default function Experience() {
                   <li>Lead team in designing and refactoring Wordpress theme, and project</li>
                 </ul>
               </div>
-              <div class="card-action"><span>Mar 2018 - June 2019  |  Austin, TX</span></div>
+              <div className="card-action"><span>Mar 2018 - June 2019  |  Austin, TX</span></div>
             </div>
             {/* CARD 2 */}
-            <div class="card" style={{ marginBottom: "3rem" }}>
-              <div class="card-content">
-                <div class="row">
-                  <div class="col">
+            <div className="card" style={{ marginBottom: "3rem" }}>
+              <div className="card-content">
+                <div className="row">
+                  <div className="col">
                     <a href="https://lowestmed.com" target="_blank">
-                      <img alt="Rx Saver logo" src={LowestMedLogo} class="responsive-img center-block company-logo"></img>
+                      <img alt="Rx Saver logo" src={LowestMedLogo} className="responsive-img center-block company-logo"></img>
                     </a>
                   </div>
-                  <div class="col">
+                  <div className="col">
                     <p>
-                      <span class="card-title"><a href="https://lowestmed.com" target="_blank" class="teal-text hoverline">LowestMed</a></span>
-                      <span class="role brown-text">Full-Stack Software Developer</span>
+                      <span className="card-title"><a href="https://lowestmed.com" target="_blank" className="teal-text hoverline">LowestMed</a></span>
+                      <span className="role brown-text">Full-Stack Software Developer</span>
                     </p>
                   </div>
                 </div>
-                <p><em class="grey-text">Angular/.NET platform to help consumers save money on pharmaceutical prescriptions through discount cards</em></p>
+                <p><em className="grey-text">Angular/.NET platform to help consumers save money on pharmaceutical prescriptions through discount cards</em></p>
                 <h6>Develop Product</h6>
                 <ul>
                   <li>As one of two developers, I created content, and functionality as directed from product, reviewed, tested, and managed releases.</li>
@@ -87,25 +87,25 @@ export default function Experience() {
                   <li>Lead team in designing and refactoring Wordpress theme, and project</li>
                 </ul>
               </div>
-              <div class="card-action"><span>Jul 2016 - Mar 2018  |  Draper, UT</span></div>
+              <div className="card-action"><span>Jul 2016 - Mar 2018  |  Draper, UT</span></div>
             </div>
             {/* CARD 3 */}
-            <div class="card">
-              <div class="card-content">
-                <div class="row">
-                  <div class="col">
+            <div className="card">
+              <div className="card-content">
+                <div className="row">
+                  <div className="col">
                     <a href="https://devmountain.com" target="_blank">
-                      <img alt="Rx Saver logo" src={DevMountainLogo} class="responsive-img center-block company-logo"></img>
+                      <img alt="Rx Saver logo" src={DevMountainLogo} className="responsive-img center-block company-logo"></img>
                     </a>
                   </div>
-                  <div class="col">
+                  <div className="col">
                     <p>
-                      <span class="card-title"><a href="https://devmountain.com" target="_blank" class="teal-text hoverline">DevMountain</a></span>
-                      <span class="role brown-text">Web Dev Student</span>
+                      <span className="card-title"><a href="https://devmountain.com" target="_blank" className="teal-text hoverline">DevMountain</a></span>
+                      <span className="role brown-text">Web Dev Student</span>
                     </p>
                   </div>
                 </div>
-                <p><em class="grey-text">Web Dev Immersive course focused on MEAN stack, <a href="https://devmountain.com/web-bootcamp-immersive">Course Curriculum</a></em></p>
+                <p><em className="grey-text">Web Dev Immersive course focused on MEAN stack, <a href="https://devmountain.com/web-bootcamp-immersive">Course Curriculum</a></em></p>
                 <h6>Develop Product</h6>
                 <ul>
                   <li>Focused on learn the fundamentals of being a web developer</li>
@@ -122,7 +122,7 @@ export default function Experience() {
                   <li>Received award from most technical group project in cohort.</li>
                 </ul>
               </div>
-              <div class="card-action"><span>Oct 2015 - Feb 2016  |  Provo, UT</span></div>
+              <div className="card-action"><span>Oct 2015 - Feb 2016  |  Provo, UT</span></div>
             </div>
             {/* END OF CARDS */}
           </div>

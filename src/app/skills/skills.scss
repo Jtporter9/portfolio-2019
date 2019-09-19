@@ -1,5 +1,10 @@
 #skills {
-    text-align: left;
+  text-align: left;
+  h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
   h2 {
     margin: 0px;
     text-align: left;
@@ -13,6 +18,13 @@
   }
   .teal {
     background-color: #009688;
+  }
+  .img-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .card {
+    margin-bottom: 60px;
   }
 }
 
