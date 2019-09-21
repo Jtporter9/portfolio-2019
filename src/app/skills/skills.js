@@ -26,9 +26,9 @@ export default function Skills() {
       <h2>SKILLS</h2>
       <div className="container section-content">
         {/* HTML CSS CARD */}
-        <div className="card flow-text col s12 p5">
+        <div className="card col s12 p5">
           <div class="card-content">
-            <h4 className="brown-text light">HTML/CSS</h4>
+            <h4 className="brown-text light flow-text">HTML/CSS</h4>
             <div className="row text-center">
               <div className="col s4 l4 xl2 center-align">
                 <img alt="" src={htmlImg} className="img-icon"></img>
@@ -58,9 +58,9 @@ export default function Skills() {
           </div>
         </div>
         {/* FRONTEND CARD */}
-        <div className="card flow-text col s12 p5">
+        <div className="card col s12 p5">
           <div class="card-content">
-            <h4 className="brown-text light">FRONTEND</h4>
+            <h4 className="brown-text light flow-text">FRONTEND</h4>
             <div className="row text-center">
               <div className="col s4 l4 xl2 center-align">
                 <img alt="" src={javascriptImg} className="img-icon"></img>
@@ -90,9 +90,9 @@ export default function Skills() {
           </div>
         </div>
         {/* BACKEND CARD */}
-        <div className="card flow-text col s12 p5">
+        <div className="card col s12 p5">
           <div class="card-content">
-            <h4 className="brown-text light">BACKEND</h4>
+            <h4 className="brown-text light flow-text">BACKEND</h4>
             <div className="row text-center">
               <div className="col s4 l4 xl2 center-align">
                 <img alt="" src={sqlImg} className="img-icon"></img>

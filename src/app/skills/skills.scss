@@ -20,11 +20,14 @@
     background-color: #009688;
   }
   .img-icon {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
   .card {
     margin-bottom: 60px;
+    .card-content {
+      font-size: 1.25rem;
+    }
   }
 }
 
