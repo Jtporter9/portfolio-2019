@@ -15,14 +15,13 @@ export default function Education() {
                 <p>
                   <span class="card-title">
                     <a href="http://upenn.edu" class="teal-text hoverline">
-                      University of Pennsylvania
+                      DevMountain Bootcamp
                     </a>
                   </span>
                 </p>
-                <p class="brown-text">Philadelphia, PA</p>
+                <p class="brown-text">Provo, UT</p>
                 <ul>
-                  <li>B.A. in Psychology</li>
-                  <li>Summa Cum Laude</li>
+                  <li>Web Dev Immersive course certificate of completion</li>
                 </ul>
               </div>
             </div>
@@ -33,13 +32,13 @@ export default function Education() {
                 <p>
                   <span class="card-title">
                     <a href="http://www.gwu.edu" class="teal-text hoverline">
-                      George Washington University
+                      Utah Valley University
                     </a>
                   </span>
                 </p>
-                <p class="brown-text">Washington, D.C.</p>
+                <p class="brown-text">Orem, Utah</p>
                 <ul>
-                  <li>B.A. candidate</li>
+                  <li>Bacholers Degree in Web & App Development</li>
                 </ul>
               </div>
             </div>

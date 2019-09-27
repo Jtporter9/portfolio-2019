@@ -100,7 +100,7 @@ export default function PermanentDrawerLeft() {
     {
       icon: 'fa fa-file',
       color: '#424242',
-      anchor: '#resume'
+      anchor: 'https://google.com'
     }
   ];
 
@@ -146,7 +146,6 @@ export default function PermanentDrawerLeft() {
         <Awards />
         <Education />
         <Contact />
-        <Resume />
       </main>
     </div>
   );

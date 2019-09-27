@@ -1,42 +1,61 @@
-import React from 'react';
-import Container from '@material-ui/core/Container';
+import React from "react";
+import Container from "@material-ui/core/Container";
 
-import './contact.scss';
-
+import "./contact.scss";
 
 export default function Contact() {
   return (
-        <section id="contact" name="contact">
-          <h2>
-            CONTACT
-          </h2>
-          <div className="section-content container flow-text">
-          <blockquote>
-            <h3>
-              Mission-driven full stack developer with a passion for thoughtful UI design, collaboration, and teaching.
-            </h3>    
-          </blockquote>
-
-            <p>
-              I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path
-              has taken many twists and turns — from touring and recording artist, to employee of the year at a non-profit,
-              to dean's scholar at UPenn, to small business owner and entrepreneur — I've never stopped engaging my passion
-              to help others and solve problems.
-            </p>
-            <p>
-              As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things,
-              and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact
-              at a high growth company.
-            </p>
-            <p>
-              <strong>Current Focus: </strong>
-              <a href="">React</a>
-              <span> // </span>
-              <a href="">SASS</a>
-              <span> // </span>
-              <a href="">Something else..</a>
-            </p>
-          </div>
-        </section>
+    <section id="contact" name="contact">
+      <h2>CONTACT</h2>
+      <div className="section-content container flow-text">
+        <p>
+          <a
+            aria-label="Email Tanner"
+            href="mailto:jtporter9@gmail.com"
+            data-position="top"
+            data-tooltip="Email Tanner"
+            class="btn-floating btn-large waves-effect waves-light orange tooltipped"
+          >
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a aria-label="Email Tanner" href="mailto:jtporter9@gmail.com">
+            jtporter9@gmail.com
+          </a>
+        </p>
+        <p>
+          <a
+            aria-label="View Tanner on GitHub"
+            href="http://github.com/jtporter9"
+            target="_blank"
+            data-position="top"
+            data-tooltip="View Tanner on GitHub"
+            class="btn-floating btn-large waves-effect waves-light orange tooltipped"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a aria-label="Tanner on Github" href="http://github.com/jtporter9">
+            github.com/jtporter9
+          </a>
+        </p>
+        <p>
+          <a
+            aria-label="View Tanner on LinkedIn"
+            href="http://linkedin.com/in/jtporter9"
+            target="_blank"
+            data-position="top"
+            data-tooltip="View Andrew on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light orange tooltipped"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            aria-label="Andrew on LinkedIn"
+            href="http://linkedin.com/in/jtporter9"
+          >
+            linkedin.com/in/jtporter9
+          </a>
+        </p>
+      </div>
+    </section>
   );
 }
