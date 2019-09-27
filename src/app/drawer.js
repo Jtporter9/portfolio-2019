@@ -21,7 +21,6 @@ import Skills from './skills/skills';
 import Awards from './awards/awards';
 import Education from './education/education';
 import Contact from './contact/contact';
-import Resume from './resume/resume';
 
 //SCSS
 import './drawer.scss';
