@@ -1,4 +1,4 @@
-# portfolio-2019
+# jtporter.dev
 
 My personal portfolio website built based on create-react-app
 
@@ -17,3 +17,7 @@ Launches the test runner in the interactive watch mode.<br>
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
+
+### GitHub default Url
+
+"http://jtporter9.github.io/portfolio-2019"

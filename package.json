@@ -2,7 +2,6 @@
     "name": "portfolio-2019",
     "version": "0.1.0",
     "private": true,
-    // "homepage": "http://jtporter9.github.io/portfolio-2019",
     "homepage": "https://jtporter.dev",
     "dependencies": {
         "@material-ui/core": "^4.3.2",
