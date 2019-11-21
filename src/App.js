@@ -1,11 +1,11 @@
 import React from 'react';
-import Drawer from './app/drawer';
+import Main from './app/main';
 import './app.scss';
 
 function App() {
     return (
         <div className="App">
-            <Drawer />
+            <Main />
         </div>
     );
 }

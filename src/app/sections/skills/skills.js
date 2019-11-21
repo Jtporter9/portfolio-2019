@@ -1,22 +1,22 @@
 import React from "react";
 
 //ASSETS
-import htmlImg from "../../images/html5.png";
-import reactImg from "../../images/react.png";
-import cssImg from "../../images/css3.png";
-import sassImg from "../../images/sass.png";
-import bootstrapImg from "../../images/bootstrap.png";
-import materialImg from "../../images/materialize.png";
-import nodeImg from "../../images/nodejs.png";
-import javascriptImg from "../../images/javascript.png";
-import laravelImg from "../../images/laravel.png";
-import reduxImg from "../../images/redux.png";
-import angularImg from "../../images/angular.png";
-import vuejsImg from "../../images/vuejs.png";
-import cSharpImg from "../../images/csharp_logo.png";
-import mongoDbImg from "../../images/mongodb.png";
-import sqlImg from "../../images/sql.png";
-import phpImg from "../../images/php.png";
+import htmlImg from "../../../images/html5.png";
+import reactImg from "../../../images/react.png";
+import cssImg from "../../../images/css3.png";
+import sassImg from "../../../images/sass.png";
+import bootstrapImg from "../../../images/bootstrap.png";
+import materialImg from "../../../images/materialize.png";
+import nodeImg from "../../../images/nodejs.png";
+import javascriptImg from "../../../images/javascript.png";
+import laravelImg from "../../../images/laravel.png";
+import reduxImg from "../../../images/redux.png";
+import angularImg from "../../../images/angular.png";
+import vuejsImg from "../../../images/vuejs.png";
+import cSharpImg from "../../../images/csharp_logo.png";
+import mongoDbImg from "../../../images/mongodb.png";
+import sqlImg from "../../../images/sql.png";
+import phpImg from "../../../images/php.png";
 
 import "./skills.scss";
 

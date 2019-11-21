@@ -1,7 +1,7 @@
 import React from 'react';
-import RxSaverLogo from '../../images/rxsaver.png';
-import LowestMedLogo from '../../images/LM.png';
-import DevMountainLogo from '../../images/DM_logo.png';
+import RxSaverLogo from '../../../images/rxsaver.png';
+import LowestMedLogo from '../../../images/LM.png';
+import DevMountainLogo from '../../../images/DM_logo.png';
 
 import './experience.scss';
 
@@ -20,13 +20,13 @@ export default function Experience() {
               <div className="card-content">
                 <div className="row">
                   <div className="col">
-                    <a href="https://rxsaver.retailmenot.com" target="_blank">
+                    <a href="https://rxsaver.retailmenot.com" target="_blank" rel="noopener noreferrer">
                       <img alt="Rx Saver logo" src={RxSaverLogo} className="responsive-img center-block company-logo"></img>
                     </a>
                   </div>
                   <div className="col">
                     <p>
-                      <span className="card-title"><a href="https://rxsaver.retailmenot.com" target="_blank" className="teal-text hoverline">Rx Saver RetailMeNot</a></span>
+                      <span className="card-title"><a href="https://rxsaver.retailmenot.com" target="_blank" rel="noopener noreferrer" className="teal-text hoverline">Rx Saver RetailMeNot</a></span>
                       <span className="role brown-text">Full-Stack Software Developer</span>
                     </p>
                   </div>
@@ -58,13 +58,13 @@ export default function Experience() {
               <div className="card-content">
                 <div className="row">
                   <div className="col">
-                    <a href="https://lowestmed.com" target="_blank">
+                    <a href="https://lowestmed.com" target="_blank" rel="noopener noreferrer">
                       <img alt="Rx Saver logo" src={LowestMedLogo} className="responsive-img center-block company-logo"></img>
                     </a>
                   </div>
                   <div className="col">
                     <p>
-                      <span className="card-title"><a href="https://lowestmed.com" target="_blank" className="teal-text hoverline">LowestMed</a></span>
+                      <span className="card-title"><a href="https://lowestmed.com" target="_blank"  rel="noopener noreferrer" className="teal-text hoverline">LowestMed</a></span>
                       <span className="role brown-text">Full-Stack Software Developer</span>
                     </p>
                   </div>
@@ -94,13 +94,13 @@ export default function Experience() {
               <div className="card-content">
                 <div className="row">
                   <div className="col">
-                    <a href="https://devmountain.com" target="_blank">
+                    <a href="https://devmountain.com" target="_blank" rel="noopener noreferrer">
                       <img alt="Rx Saver logo" src={DevMountainLogo} className="responsive-img center-block company-logo"></img>
                     </a>
                   </div>
                   <div className="col">
                     <p>
-                      <span className="card-title"><a href="https://devmountain.com" target="_blank" className="teal-text hoverline">DevMountain</a></span>
+                      <span className="card-title"><a href="https://devmountain.com" target="_blank" rel="noopener noreferrer" className="teal-text hoverline">DevMountain</a></span>
                       <span className="role brown-text">Web Dev Student</span>
                     </p>
                   </div>

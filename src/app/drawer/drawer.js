@@ -12,25 +12,12 @@ import { loadCSS } from 'fg-loadcss';
 import clsx from 'clsx';
 import Icon from '@material-ui/core/Icon';
 
-//COMPONENTS
-import Intro from './intro/intro';
-import About from './about/about';
-import Experience from './experience/experience';
-import Projects from './projects/projects';
-import Skills from './skills/skills';
-import Awards from './awards/awards';
-import Education from './education/education';
-import Contact from './contact/contact';
-
 //SCSS
 import './drawer.scss';
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    display: 'flex',
-  },
   appBar: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
@@ -104,7 +91,7 @@ export default function PermanentDrawerLeft() {
   ];
 
   return (
-    <div className={classes.root}>
+    <div className='drawer'>
       <CssBaseline />
       <Drawer
         className={classes.drawer}
@@ -136,16 +123,6 @@ export default function PermanentDrawerLeft() {
           ))}
         </List>
       </Drawer>
-      <main>
-        <Intro />
-        <About />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Awards />
-        <Education />
-        <Contact />
-      </main>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "@material-ui/core/Container";
 
 import "./contact.scss";
 
@@ -27,6 +26,7 @@ export default function Contact() {
             aria-label="View Tanner on GitHub"
             href="http://github.com/jtporter9"
             target="_blank"
+            rel="noopener noreferrer"
             data-position="top"
             data-tooltip="View Tanner on GitHub"
             class="btn-floating btn-large waves-effect waves-light orange tooltipped"
@@ -42,6 +42,7 @@ export default function Contact() {
             aria-label="View Tanner on LinkedIn"
             href="http://linkedin.com/in/jtporter9"
             target="_blank"
+            rel="noopener noreferrer"
             data-position="top"
             data-tooltip="View Andrew on LinkedIn"
             class="btn-floating btn-large waves-effect waves-light orange tooltipped"

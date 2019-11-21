@@ -1,5 +1,5 @@
 #intro {
-    background-image: url('./../../images/jt-copy.jpg');
+    background-image: url('../../../images/jt-copy.jpg');
     background-size: cover;
     width:100%;
     height: 100vh;
@@ -32,4 +32,10 @@
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+@media (max-width: 1050px) {
+    #intro {
+        background-position-x: 65%;
+    }
 }

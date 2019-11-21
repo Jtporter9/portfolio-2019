@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import Container from '@material-ui/core/Container';
 
 import './about.scss';
 

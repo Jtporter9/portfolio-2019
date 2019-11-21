@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "@material-ui/core/Container";
 
 import "./awards.scss";
 
@@ -17,6 +16,7 @@ export default function Awards() {
                     <a
                       href="http://startupinstitute.com"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="teal-text hoverline"
                     >
                       Most Improved Award 

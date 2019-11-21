@@ -3,8 +3,8 @@ import React from 'react';
 import './projects.scss';
 
 //ASSETS
-import rxSaverHomePage from '../../images/rxsaver-homepage.png';
-import slcClimbingHomePage from '../../images/slc-climbing-homepage.png';
+import rxSaverHomePage from '../../../images/rxsaver-homepage.png';
+import slcClimbingHomePage from '../../../images/slc-climbing-homepage.png';
 
 
 export default function Projects() {
@@ -18,7 +18,7 @@ export default function Projects() {
         <div className="col s12 m6 l4">
           <div className="card medium">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" src={rxSaverHomePage}></img>
+              <img alt="RxSaver" className="activator" src={rxSaverHomePage}></img>
             </div>
             <div className="card-content">
               <span className="card-title activator">
@@ -39,7 +39,7 @@ export default function Projects() {
         <div className="col s12 m6 l4">
           <div className="card medium">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" src={slcClimbingHomePage}></img>
+              <img alt="Slc Climing" className="activator" src={slcClimbingHomePage}></img>
             </div>
             <div className="card-content">
               <span className="card-title activator">
