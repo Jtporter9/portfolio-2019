@@ -86,7 +86,7 @@ export default function PermanentDrawerLeft() {
     {
       icon: 'fa fa-file',
       color: '#424242',
-      anchor: 'https://docs.google.com/document/d/1RlUb7U_8oEDtm-BiAnOWgN2nOYUBqSrpQm0sKx0aMXI/edit?usp=sharing',
+      anchor: 'https://mega.nz/#!mI8zUKLS!ImVVY79dw25KJFzWEEuUsMwAVxrl7hfqubOXrsgS41U',
       target: "_blank",
       rel: "noopener noreferrer"
     }
