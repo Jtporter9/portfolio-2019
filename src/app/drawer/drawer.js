@@ -86,7 +86,9 @@ export default function PermanentDrawerLeft() {
     {
       icon: 'fa fa-file',
       color: '#424242',
-      anchor: 'https://google.com'
+      anchor: 'https://docs.google.com/document/d/1RlUb7U_8oEDtm-BiAnOWgN2nOYUBqSrpQm0sKx0aMXI/edit?usp=sharing',
+      target: "_blank",
+      rel: "noopener noreferrer"
     }
   ];
 
@@ -114,7 +116,7 @@ export default function PermanentDrawerLeft() {
         <Divider />
         <List className="side-bar-nav-list">
           {['About', 'Experience', 'Projects', 'Skills', 'Awards', 'Education', 'Contact', 'Resume'].map((text, index) => (
-            <a className="icon-anchor" href={icons[index].anchor}>
+            <a className="icon-anchor" target={icons[index].target} rel={icons[index].rel} href={icons[index].anchor}>
               <ListItem button key={text}>
                 <ListItemIcon><Icon className={clsx(classes.icon, icons[index].icon)} style={{ color: icons[index].color }} /></ListItemIcon>
                 <ListItemText primary={text} />
