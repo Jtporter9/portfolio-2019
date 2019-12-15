@@ -48,8 +48,30 @@
     }
 }
 
+.nav-layout-stacked {
+    display: none;
+}
+
 @media (max-width: 767px) {
-    .drawer {
+    .nav-layout-left {
         display: none;
+    }
+    .nav-layout-stacked {
+        display: block;
+        .makeStyles-drawerPaper-3 {
+            width: 250px;
+            .name-logo {
+                font-size: 42px;
+            }
+            .MuiTypography-overline {
+                font-size: 1rem;;
+            }
+            ul .MuiListItem-root {
+                padding: 20px 16px !important;
+                .MuiTypography-body1 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
     }
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -37,8 +37,18 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function PermanentDrawerLeft() {
+const PermanentDrawerLeft = props => {
   const classes = useStyles();
+
+  const { appBar, drawer, drawerPaper, toolbar, content } = classes;
+  const { navLayout } = props;
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
+  PermanentDrawerLeft.handleClickOutside = () => setIsOpen(false);
+
+  console.log(1, drawer, navLayout);
+  
 
   React.useEffect(() => {
     loadCSS(
@@ -96,10 +106,10 @@ export default function PermanentDrawerLeft() {
     <div className='drawer'>
       <CssBaseline />
       <Drawer
-        className={classes.drawer}
+        className={[drawer, navLayout]}
         variant="permanent"
         classes={{
-          paper: classes.drawerPaper,
+          paper: drawerPaper,
         }}
         anchor="left"
       >
@@ -128,3 +138,5 @@ export default function PermanentDrawerLeft() {
     </div>
   );
 }
+
+export default PermanentDrawerLeft;

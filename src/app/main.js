@@ -18,9 +18,9 @@ import './main.scss';
 export default function PermanentDrawerLeft() {
   return (
     <div className='flex'>
-      <Drawer />
+      <Drawer navLayout="nav-layout-left" />
       <main>
-        {/* <MobileNav /> */}
+        <Drawer navLayout="nav-layout-stacked" />
         <Intro />
         <About />
         <Experience />
