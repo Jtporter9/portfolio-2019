@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 767px) {
+    .drawer {
+        display: none;
+    }
     .nav-layout-left {
         display: none;
     }
