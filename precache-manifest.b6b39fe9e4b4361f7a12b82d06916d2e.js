@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b5b089e702501d1023741e3c3fd7135",
+    "revision": "a611864670a83dc6bca22bc2f3720611",
     "url": "/index.html"
   },
   {
-    "revision": "2e0e8e246a320f84e2fd",
-    "url": "/static/css/main.dcb2c8c8.chunk.css"
+    "revision": "51d9496cb54869a903aa",
+    "url": "/static/css/main.4c16d130.chunk.css"
   },
   {
-    "revision": "247a26c87b2f8d3e20cb",
-    "url": "/static/js/2.6d9e673a.chunk.js"
+    "revision": "8167d791e26e7df57f5b",
+    "url": "/static/js/2.e693d692.chunk.js"
   },
   {
-    "revision": "2e0e8e246a320f84e2fd",
-    "url": "/static/js/main.31d7bd7c.chunk.js"
+    "revision": "51d9496cb54869a903aa",
+    "url": "/static/js/main.b64cfce3.chunk.js"
   },
   {
     "revision": "3e635c2276b04486a472",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/csharp_logo.cb275a24.png"
   },
   {
-    "revision": "54c7a9ae8d5aec5baa5afaefd81d3027",
-    "url": "/static/media/jt-copy.54c7a9ae.jpg"
+    "revision": "be32f82d379031901471937097d5978f",
+    "url": "/static/media/hero-canada.be32f82d.JPG"
   },
   {
     "revision": "c883ef7fc37077d8c2a7fbd1b0e5d00d",
