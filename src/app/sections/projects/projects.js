@@ -25,13 +25,15 @@ export default function Projects() {
                 <a className="primary-color" href="https://rxsaver.retailmenot.com/">Rx Saver</a>
                 <i className="material-icons right primary-color">more_vert</i>
               </span>
-              <p>blah blah test</p>
+              <p className="flow-text">
+                Rx Saver by RetailMeNot is a drug price comparison tool. It allows you to find the cheapest discount card for your prescription at your nearest pharmacy.
+              </p>
             </div>
             <div className="card-reveal">
               <span className="card-title">
                 <a className="primary-color" href="https://rxsaver.retailmenot.com/">Rx Saver</a>
                 <i className="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              <p className="flow-text">Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
         </div>
@@ -46,7 +48,7 @@ export default function Projects() {
                 <a className="primary-color" href="https://www.saltlakeclimbingfestival.com">Salt Lake Climbing Festival</a>
                 <i className="material-icons right primary-color">more_vert</i>
               </span>
-              <p>blah blah test</p>
+              <p>I helped style this standalone site for a Climbing festival in Salt Lake City, UT</p>
             </div>
             <div className="card-reveal">
               <span className="card-title">
