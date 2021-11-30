@@ -2,6 +2,8 @@ import React from 'react';
 import RxSaverLogo from '../../../images/rxsaver.png';
 import LowestMedLogo from '../../../images/LM.png';
 import DevMountainLogo from '../../../images/DM_logo.png';
+import PrincipalLogo from '../../../images/principal-logo.png';
+import ReadeoLogo from '../../../images/readeo-logo.svg';
 
 import './experience.scss';
 
@@ -15,8 +17,74 @@ export default function Experience() {
       <div className="section-content container">
         <div className="row">
           <div className="col 12">
-            {/* CARD 1 */}
+            {/* CARD 4 */}
             <div className="card" style={{ marginBottom: "3rem" }}>
+              <div className="card-content">
+                <div className="row">
+                  <div className="col">
+                    <a href="https://principal.com" target="_blank" rel="noopener noreferrer">
+                      <img style={{ width: "100px" }} alt="Rx Saver logo" src={PrincipalLogo} className="responsive-img center-block company-logo"></img>
+                    </a>
+                  </div>
+                  <div className="col">
+                    <p>
+                      <span className="card-title"><a href="https://principal.com" target="_blank" rel="noopener noreferrer" className="teal-text hoverline">Principal Financial Group</a></span>
+                      <span className="role brown-text">Web Software Engineer</span>
+                    </p>
+                  </div>
+                </div>
+                <p><em className="grey-text">Fourtune 250 company that helps with Investment and Retirement</em></p>
+                <h6>Develop Product</h6>
+                <ul>
+                  <li>Brought updates to the front facing website to this fortune 250 company.</li>
+                  <li>Assisted in building a company wide design library.</li>
+                  <li>Contributed to open source plugins used in Drupal 8 </li>
+
+                </ul>
+                {/* <h6>Accomplishments</h6>
+                <ul>
+                  <li>Received certification of completion.</li>
+                  <li>Received award for most improved student in cohort.</li>
+                  <li>Received award from most technical group project in cohort.</li>
+                </ul> */}
+              </div>
+              <div className="card-action"><span>Jan 2021 - Current  |  Vineyard, UT</span></div>
+            </div>
+            {/* CARD 5 */}
+            <div className="card">
+              <div className="card-content">
+                <div className="row">
+                  <div className="col">
+                    <a href="https://readeo.com" target="_blank" rel="noopener noreferrer">
+                      <img style={{ width: "100px" }} alt="Rx Saver logo" src={ReadeoLogo} className="responsive-img center-block company-logo"></img>
+                    </a>
+                  </div>
+                  <div className="col">
+                    <p>
+                      <span className="card-title"><a href="https://readeo.com" target="_blank" rel="noopener noreferrer" className="teal-text hoverline">Readeo app</a></span>
+                      <span className="role brown-text">Software Engineer, Team Lead</span>
+                    </p>
+                  </div>
+                </div>
+                <p><em className="grey-text">Online library for childrens books, virually connect with loved ones. <a href="https://readeo.com">readeo.com</a></em></p>
+                <h6>Develop Product</h6>
+                <ul>
+                  <li>Managed a team of 7 Engineers by organizing work, and reviewing code.</li>
+                  <li>Assisted in the company's launch of their Readeo app in app and play store.</li>
+                  <li>Assisted as Lead/Head of Engineering to company managing team and sites.</li>
+
+                </ul>
+                {/* <h6>Accomplishments</h6>
+                <ul>
+                  <li>Received certification of completion.</li>
+                  <li>Received award for most improved student in cohort.</li>
+                  <li>Received award from most technical group project in cohort.</li>
+                </ul> */}
+              </div>
+              <div className="card-action"><span>Oct 2015 - Feb 2016  |  Provo, UT</span></div>
+            </div>
+            {/* CARD 1 */}
+            <div className="card">
               <div className="card-content">
                 <div className="row">
                   <div className="col">
@@ -122,7 +190,7 @@ export default function Experience() {
                   <li>Received award from most technical group project in cohort.</li>
                 </ul>
               </div>
-              <div className="card-action"><span>Oct 2015 - Feb 2016  |  Provo, UT</span></div>
+              <div className="card-action"><span>Jul 2019 - Dec 2020  |  Des Moines, IA</span></div>
             </div>
             {/* END OF CARDS */}
           </div>

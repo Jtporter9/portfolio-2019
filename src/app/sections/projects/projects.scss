@@ -2,6 +2,9 @@
   text-align: left;
   .section-content {
     display: flex;
+    @media only screen and (max-width: 600px) {
+      display: block;
+    }
   }
   h2 {
     margin: 0px;
@@ -18,7 +21,10 @@
     color: #009688;
   }
   .card {
-    margin: 0 2rem;
+    margin: 1rem 2rem;
+    @media only screen and (max-width: 600px) {
+      margin: 1rem;
+    }
   }
   .card-image {
     border-bottom: 1px solid rgba(160,160,160,0.2);
