@@ -6,11 +6,19 @@
     }
     
     .name-logo {
-        font-size: 32px;
-        text-align: left;
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            font-weight: 100;
+            color: #009688;
+            padding: 0;
+            margin: 0;
+        }
         padding: 0px 20px;
-        font-weight: 100;
-        color: #009688;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     
     .icon-anchor {
@@ -64,7 +72,9 @@
         .makeStyles-drawerPaper-3 {
             width: 250px;
             .name-logo {
-                font-size: 42px;
+                h1 {
+                    font-size: 42px;
+                }
             }
             .MuiTypography-overline {
                 font-size: 1rem;;

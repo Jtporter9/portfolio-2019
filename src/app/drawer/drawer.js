@@ -11,6 +11,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { loadCSS } from 'fg-loadcss';
 import clsx from 'clsx';
 import Icon from '@material-ui/core/Icon';
+import JtDevLogo from '../../images/logo-alt-2.png';
 
 //SCSS
 import './drawer.scss';
@@ -114,9 +115,10 @@ const PermanentDrawerLeft = props => {
         anchor="left"
       >
         <div>
-          <a href="#intro">
-            <h1 className="name-logo">
-              JT Porter
+          <a className="name-logo" href="#intro">
+            <img src={JtDevLogo} style={{ width: '100px' }} alt="JT Porter" />
+            <h1>
+            JT Porter
             <Typography style={{ color: 'black' }} variant="overline" display="block">
                 Full Stack Developer
           </Typography>
