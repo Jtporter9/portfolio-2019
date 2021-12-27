@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feed00fb7d12db3bf9c6acd46054e961",
+    "revision": "d05ad77426b92e4211b56fe399466974",
     "url": "/index.html"
   },
   {
-    "revision": "ad7c15094278ecef4c26",
-    "url": "/static/css/main.b387bf66.chunk.css"
+    "revision": "a4197797e6f7ce3cf0d5",
+    "url": "/static/css/main.08570155.chunk.css"
   },
   {
-    "revision": "1c33da6bb83fa7ee2186",
-    "url": "/static/js/2.cb4e3aac.chunk.js"
+    "revision": "959f83552a86a6c0d59b",
+    "url": "/static/js/2.ccf3b842.chunk.js"
   },
   {
-    "revision": "ad7c15094278ecef4c26",
-    "url": "/static/js/main.ce7ad76f.chunk.js"
+    "revision": "a4197797e6f7ce3cf0d5",
+    "url": "/static/js/main.1e81d289.chunk.js"
   },
   {
     "revision": "3e635c2276b04486a472",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c883ef7fc37077d8c2a7fbd1b0e5d00d",
     "url": "/static/media/laravel.c883ef7f.png"
+  },
+  {
+    "revision": "7e42262017e9657fb9a9b0b7df9c76e6",
+    "url": "/static/media/logo-alt-2.7e422620.png"
+  },
+  {
+    "revision": "2ce64ae2033adbd1ed164066c23f9929",
+    "url": "/static/media/logo-white-transparent.2ce64ae2.png"
   },
   {
     "revision": "9a36268cf1f7175ad6118fae11d7fed8",
