@@ -18,8 +18,8 @@ export default function About() {
       </blockquote>
 
         <p>
-          I’ve always sought out opportunities and challenges that are meaningful to me. I have a passion to help other, and to work in teams.
-          From a two year service mission in Mexico, to college athletics, I seek to bring that same passion everywhere I go — I've never stop engaging in my passion
+          I’ve always sought out opportunities and challenges that are meaningful to me. I have a passion to help others, and to work in teams.
+          From a two year service mission in Mexico, to college athletics, I seek to bring that same passion everywhere I go — I've never stopped engaging in my passion
           to help others and solve problems.
         </p>
         <p>
